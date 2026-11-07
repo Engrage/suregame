@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
